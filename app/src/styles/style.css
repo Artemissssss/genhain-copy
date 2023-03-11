@@ -1,0 +1,224 @@
+.mainSect {
+    width: 100%;
+    height: 1362px;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+.mainBackImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.mainInfo {
+    margin: 0 auto;
+    margin-top: 560px;
+    width: 922px;
+    height: 766px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* !============================================================================= */
+.mainBanner {
+    width: 584px;
+    padding: 0 13px;
+    background: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+.mainBannerH {
+    width: 100%;
+    height: 43px;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    color: #736A58;
+}
+
+.mainBannerSect {
+    width: 263px;
+    height: 191px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mainBannerText {
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    color: #736A58;
+}
+
+/* !===============================================================================================================*/
+.mainEvents {
+    width: 264px;
+    height: 430px;
+    background: #FFFFFF;
+    padding: 0 15px;
+    margin-bottom: 31px;
+}
+
+.mainEventsText {
+    width: 249px;
+    height: 38px;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    color: #736A58;
+}
+
+.mainEventImg {
+    margin-bottom: 15px;
+}
+
+.mainEventImg:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+/* !===============================================================================================================*/
+
+.mainNeedToRead {
+    width: 584px;
+    height: 340px;
+    background: #FFFFFF;
+    padding: 13px 5px;
+    padding-top: 0;
+}
+
+.mainNeedToReadText {
+    width: 550px;
+    height: 43px;
+    font-family: 'Old Standard TT', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #736A58;
+    margin-bottom: 17px;
+}
+
+.mainNeedToReadSlider {
+    width: 381px;
+    height: 257px;
+    margin: 0 auto;
+}
+
+/* !=================================================================================================================== */
+
+.mainDayRecoursse {
+    width: 264px;
+    height: 340px;
+    background: #FFFFFF;
+    padding: 0px 16px 5px 16px;
+}
+
+.mainDayResText {
+    width: 100%;
+    height: 38px;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #736A58;
+}
+
+.mainDayResSectText {
+    margin-left: 36px;
+    width: 200px;
+    height: 36px;
+    left: 888px;
+    top: 1095px;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    color: #736A58;
+}
+
+.mainDayResSectImg {
+    margin: 0 auto;
+    width: 118px;
+}
+
+.mainDayResSImg {
+    margin-top: -15px;
+}
+
+.mainDayResSlider {
+    width: 100%;
+}
+.mainDayResSectTextPos,.mainDayResSectTextPos2,.mainDayResSectTextPos3,.mainDayResSectTextPos4{
+    width: 236px;
+    height: 1px;
+    position: absolute;
+}
+.mainDayResSectTextPos::after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background-image: url("../../public/img/mond-symbol.png");
+    position: relative;
+    top: 10%;
+    left: 0;
+    transform: translateY(-10%);
+    z-index: 100;
+}
+.mainDayResSectTextPos2::after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background-image: url("../../public/img/li-symbol.png");
+    position: relative;
+    top: 10%;
+    left: 0;
+    transform: translateY(-10%);
+    z-index: 100;
+}
+.mainDayResSectTextPos3::after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background-image: url("../../public/img/ina-symbol.png");
+    position: relative;
+    top: 10%;
+    left: 0;
+    transform: translateY(-10%);
+    z-index: 100;
+}
+.mainDayResSectTextPos4::after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background-image: url("../../public/img/sum-symbol.png");
+    position: relative;
+    top: 10%;
+    left: 0;
+    transform: translateY(-10%);
+    z-index: 100;
+}

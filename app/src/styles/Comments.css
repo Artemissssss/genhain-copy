@@ -1,0 +1,53 @@
+.CommentsSect {
+    width: 100%;
+}
+
+.CommentsSectQuant {
+
+    height: 17px;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #736A58;
+}
+
+.CommentsSectLine {
+    width: 100%;
+    height: 2px;
+    background: rgba(115, 106, 88, 0.7);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.postCommentsList {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.postCommentsList:nth-last-of-type(1){
+margin-bottom: 0;
+}
+.postCommentsName {
+    width: 100%;
+    height: 47px;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #736A58;
+}
+
+.postCommentsText {
+    width: 100%;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #736A58;
+}
