@@ -1,0 +1,35 @@
+.navSect {
+    width: 922px;
+    height: 90px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    top: 31px;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.linkSect {
+    width: 635px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkText {
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    color: #736A58;
+}
+.wrapLogoTg{
+width: 90px;
+height: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+}

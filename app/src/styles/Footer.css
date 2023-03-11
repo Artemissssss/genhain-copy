@@ -1,0 +1,114 @@
+.footerSect {
+    width: 100%;
+    height: 249px;
+    background-color: white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.footerCont {
+    width: 922px;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footerName {
+    height: 69px;
+    font-family: 'Old Standard TT', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    color: #736A58;
+    margin-left: 69px;
+    margin-bottom: 10px;
+}
+
+.footerName::after {
+    content: "";
+    width: 69px;
+    height: 69px;
+    background-image: url("../../public/img/logo.png");
+    background-size: 69px;
+    background-position: center;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.footerList {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerItem {
+    height: 126px;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerItemSect {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.footerItemSectImg {
+    width: 30px;
+    height: 30px;
+}
+
+.footerItemSectText {
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(115, 106, 88, 0.88);
+    margin-left: 8px;
+}
+
+.footerItemLink {
+    height: 31.5px;
+    width: 100%;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(115, 106, 88, 0.88);
+}
+
+.CommentsSectLineFooter {
+    width: 100%;
+    height: 2px;
+    background: rgba(115, 106, 88, 0.7);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    margin-top: 14px;
+}
+
+.footerCopyrigth {
+    width: 100%;
+    height: 27px;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(115, 106, 88, 0.7);
+}
